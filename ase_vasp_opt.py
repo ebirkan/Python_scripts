@@ -1,7 +1,6 @@
 # Import required modules
 import os, sys
 import ase
-from ase import Atoms
 from ase.calculators.vasp import Vasp
 from ase.optimize import BFGS
 from ase.constraints import ExpCellFilter
